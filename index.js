@@ -38,4 +38,9 @@ app.get('/viewer', (req, res) => {
 })
 
 
+app.get('/{*any}', (req, res) => {
+    res.render('404')
+})
+
+
 app.listen('3000')
