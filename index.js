@@ -43,6 +43,6 @@ app.get('/{*any}', (req, res) => {
 })
 
 
-app.listen('3000',() => {
-    console.log("running on 3000")
+app.listen('80',() => {
+    console.log("running on 80")
 })
